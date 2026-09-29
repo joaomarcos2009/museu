@@ -1,0 +1,602 @@
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Museu do Futuro - Patinete</title>
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff1b8;
+    color: rgb(5, 5, 5);
+  }
+
+  header {
+    background-color: #1b1b1b;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  header p {
+    color: #e7c84b;
+  }
+
+  nav {
+    background-color: #333;
+    text-align: center;
+    padding: 15px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+  }
+
+  nav a:hover {
+    color: #e7c84b;
+  }
+
+  main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 20px;
+  }
+
+  section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 10px;
+  }
+
+  h2 {
+    border-bottom: 2px solid #d8b82e;
+    padding-bottom: 8px;
+  }
+
+  .destaque {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .destaque img {
+    width: 40%;
+    border-radius: 10px;
+  }
+
+  .codigo {
+    color: #777;
+    font-size: 14px;
+  }
+
+  .etiqueta {
+    display: inline-block;
+    background-color: #e7c84b;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+
+  .hipoteses {
+    display: flex;
+    gap: 15px;
+  }
+
+  article {
+    flex: 1;
+    background-color: #fffde9;
+    padding: 18px;
+    border-radius: 8px;
+  }
+
+  aside {
+    background-color: #272727;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+  }
+
+  blockquote {
+    border-left: 4px solid #d8b82e;
+    margin-left: 0;
+    padding: 20px;
+    font-style: italic;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    border: 1px solid #cccccc;
+    text-align: left;
+    padding: 10px;
+  }
+
+  th {
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+
+  .alert {
+    background-color: #fff1d6;
+    border-left: 6px solid #d59326;
+  }
+
+  footer {
+    background-color: #1b1b1b;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 16px;
+  }
+
+  @media (max-width: 700px) {
+    .destaque,
+    .hipoteses {
+      flex-direction: column;
+    }
+
+    .destaque img {
+      width: 100%;
+    }
+
+    nav a {
+      display: block;
+    }
+
+    table {
+      font-size: 13px;
+    }
+  }
+</style>
+</head>
+
+<body>
+<header>
+  <p>MUSEU DE ARQUEOLOGIA DIGITAL</p>
+  <h1>Arquivo Histórico — 2200</h1>
+  <p>Reconstruindo os misteriosos costumes da humanidade do século XXI.</p>
+</header>
+
+<nav>
+  <a href="#artefato">Artefato</a>
+  <a href="#descoberta">Descoberta</a>
+  <a href="#hipoteses">Hipóteses</a>
+  <a href="#evidencias">Evidências</a>
+  <a href="#arqueologo">Arqueólogo</a>
+</nav>
+
+<main>
+
+<section id="artefato" class="destaque">
+  <img
+    src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=900&q=80"
+    alt="Patinete"
+  />
+  <article>
+    <p class="codigo">ARTEFATO #PT-2026-001</p>
+    <h2>Patinete Urbano</h2>
+    <p class="etiqueta">Importância cultural: 8/10</p>
+
+    <p>
+      Artefato utilizado pela sociedade brasileira do início do século XXI
+      para realizar pequenos deslocamentos, praticar atividades de lazer
+      e circular por áreas urbanas.
+    </p>
+
+    <p>
+      Pesquisadores do século XXII ficaram intrigados com o tamanho reduzido
+      do veículo e com a capacidade de uma pessoa se deslocar utilizando
+      apenas duas rodas.
+    </p>
+
+    <p>
+      Estudos posteriores indicaram que o patinete fazia parte da cultura
+      urbana e era utilizado principalmente por jovens e adultos.
+    </p>
+
+    <blockquote>
+      "Como uma estrutura tão pequena conseguia transportar uma pessoa?"
+    </blockquote>
+  </article>
+</section>
+
+<section id="descoberta">
+  <h2>Local da descoberta</h2>
+
+  <p>
+    O artefato foi encontrado em 17 de março de 2197 durante uma
+    escavação nas ruínas de um antigo estabelecimento comercial.
+  </p>
+
+  <p>
+    <strong>Local histórico:</strong> Sorocaba, antiga região denominada São Paulo, Brasil.
+  </p>
+
+  <p>
+    O patinete estava próximo a outros objetos pessoais utilizados
+    pela população da época.
+  </p>
+
+  <h3>Objetos encontrados próximos</h3>
+  <ul>
+    <li>Um capacete</li>
+    <li>Uma garrafa de água</li>
+    <li>Uma mochila</li>
+    <li>Um celular sem bateria</li>
+    <li>Um fone de ouvido</li>
+    <li>Uma bicicleta</li>
+  </ul>
+
+  <blockquote>
+    "Era pequeno, mas claramente tinha sido feito para levar alguém de um lugar para outro."
+  </blockquote>
+
+  <p>
+    Esta frase foi considerada pelos arqueólogos como uma das primeiras
+    pistas sobre a função do artefato.
+  </p>
+</section>
+
+<section>
+  <h2>Descrição física</h2>
+
+  <p>
+    O objeto apresenta uma estrutura alongada, duas rodas, uma plataforma
+    para os pés e um guidão utilizado para controlar a direção.
+  </p>
+
+  <p>
+    <strong>Comprimento:</strong> aproximadamente 80–120 cm<br />
+    <strong>Peso:</strong> baixo<br />
+    <strong>Material:</strong> metal, plástico e borracha<br />
+    <strong>Capacidade:</strong> uma pessoa<br />
+    <strong>Fonte energética:</strong> força humana
+  </p>
+
+  <p>
+    Uma das características mais importantes é a possibilidade de o usuário
+    impulsionar o veículo com um dos pés enquanto mantém o outro sobre a plataforma.
+  </p>
+
+  <blockquote>
+    "O patinete representa uma solução simples para um problema comum: deslocar-se por pequenas distâncias."
+  </blockquote>
+
+  <p>
+    Essa explicação foi considerada pelos pesquisadores como bastante provável.
+  </p>
+</section>
+
+<section>
+  <h2>Função provável</h2>
+
+  <p>
+    A explicação oficialmente aceita afirma que o patinete era utilizado
+    principalmente para deslocamentos curtos em ambientes urbanos.
+  </p>
+
+  <p>
+    Além do transporte, o objeto também era utilizado para lazer,
+    exercícios e realização de manobras.
+  </p>
+
+  <p>
+    Alguns modelos encontrados em registros históricos possuíam sistemas
+    diferentes de rodas, freios e até motores elétricos.
+  </p>
+
+  <blockquote>
+    "Talvez o patinete fosse um dos primeiros exemplos de transporte urbano compacto."
+  </blockquote>
+</section>
+
+<section id="hipoteses">
+  <h2>Principais hipóteses arqueológicas</h2>
+
+  <div class="hipoteses">
+    <article>
+      <h3>Hipótese A</h3>
+      <p><strong>Meio de transporte</strong></p>
+      <p>
+        A teoria principal afirma que o patinete era utilizado para
+        percorrer pequenas distâncias de maneira prática.
+      </p>
+      <p>
+        A presença de rodas, guidão e plataforma reforça essa interpretação.
+      </p>
+    </article>
+
+    <article>
+      <h3>Hipótese B</h3>
+      <p><strong>Equipamento esportivo</strong></p>
+      <p>
+        Outra hipótese afirma que muitos patinetes eram utilizados
+        principalmente para lazer e prática de manobras.
+      </p>
+      <p>
+        Registros mostram usuários realizando saltos, giros e outras técnicas.
+      </p>
+    </article>
+
+    <article>
+      <h3>Hipótese C</h3>
+      <p><strong>Veículo de uso urbano</strong></p>
+      <p>
+        Uma terceira teoria considera o patinete uma alternativa compacta
+        para circular por ruas, parques e ciclovias.
+      </p>
+      <p>
+        Seu tamanho facilitava o transporte e o armazenamento.
+      </p>
+    </article>
+  </div>
+</section>
+
+<section>
+  <h2>A evolução do Patinete</h2>
+
+  <p>
+    Pesquisadores descobriram que o patinete passou por diversas mudanças
+    ao longo do século XXI.
+  </p>
+
+  <ol>
+    <li>Modelos simples eram impulsionados diretamente pelo usuário.</li>
+    <li>Novos modelos receberam freios mais eficientes.</li>
+    <li>Foram desenvolvidos patinetes dobráveis.</li>
+    <li>Modelos elétricos começaram a utilizar baterias.</li>
+    <li>O patinete passou a ser utilizado em sistemas de transporte compartilhado.</li>
+    <li>Novos materiais tornaram os veículos mais leves e resistentes.</li>
+  </ol>
+
+  <blockquote>
+    "A história do patinete mostra como uma ideia simples pode evoluir junto com a tecnologia."
+  </blockquote>
+
+  <p>
+    Essa evolução ajudou o patinete a permanecer presente na vida urbana
+    durante diferentes períodos da sociedade.
+  </p>
+</section>
+
+<section>
+  <h2>O misterioso patinete elétrico</h2>
+
+  <p>
+    Um dos achados mais interessantes foi um registro de patinete equipado
+    com motor elétrico.
+  </p>
+
+  <p>
+    Diferentemente dos modelos tradicionais, esse tipo de veículo conseguia
+    se movimentar sem que o usuário precisasse impulsioná-lo constantemente.
+  </p>
+
+  <p>
+    Os pesquisadores acreditam que isso representava uma tentativa de tornar
+    os deslocamentos urbanos mais rápidos e confortáveis.
+  </p>
+
+  <blockquote>
+    "A eletrificação transformou um simples veículo de duas rodas em uma ferramenta de mobilidade urbana."
+  </blockquote>
+</section>
+
+<section id="evidencias">
+  <h2>Evidências linguísticas</h2>
+
+  <p>
+    Textos recuperados da internet do século XXI apresentam diversas
+    expressões relacionadas ao uso cotidiano do patinete.
+  </p>
+
+  <table>
+    <tr>
+      <th>Expressão encontrada</th>
+      <th>Interpretação em 2200</th>
+    </tr>
+    <tr>
+      <td>Vou de patinete</td>
+      <td>Indicação de deslocamento pessoal</td>
+    </tr>
+    <tr>
+      <td>Vou andar de patinete</td>
+      <td>Possível atividade de lazer</td>
+    </tr>
+    <tr>
+      <td>Meu patinete</td>
+      <td>Declaração de posse do veículo</td>
+    </tr>
+    <tr>
+      <td>O patinete está sem bateria</td>
+      <td>Veículo elétrico sem energia</td>
+    </tr>
+    <tr>
+      <td>Vou dobrar o patinete</td>
+      <td>Preparação para armazenamento</td>
+    </tr>
+    <tr>
+      <td>Vamos andar de patinete</td>
+      <td>Convite para uma atividade conjunta</td>
+    </tr>
+  </table>
+</section>
+
+<section>
+  <h2>Fragmentos digitais recuperados</h2>
+
+  <p>
+    Diversos vídeos foram recuperados de uma antiga plataforma chamada
+    <strong>YouTube</strong>.
+  </p>
+
+  <p>
+    Em vários deles, indivíduos aparecem utilizando patinetes em ruas,
+    parques e espaços destinados ao lazer.
+  </p>
+
+  <p>
+    Alguns registros apresentam pessoas realizando saltos, giros e outras
+    manobras com o veículo.
+  </p>
+
+  <p>
+    Durante décadas, historiadores interpretaram esses registros como
+    simples formas de diversão.
+  </p>
+
+  <p>
+    Pesquisadores recentes passaram a considerar também a importância do
+    patinete para a mobilidade urbana.
+  </p>
+
+  <blockquote>
+    "A quantidade de registros de pessoas utilizando patinetes mostra que o objeto fazia parte do cotidiano."
+  </blockquote>
+</section>
+
+<aside id="arqueologo">
+  <h2>Comentário do arqueólogo</h2>
+
+  <h3>Dr. Elias Ventura</h3>
+  <p>Instituto de Arqueologia Doméstica — 2200</p>
+
+  <blockquote>
+    Durante muito tempo acreditamos que o patinete fosse apenas um brinquedo.
+  </blockquote>
+
+  <blockquote>
+    Entretanto, quando analisamos seus componentes, percebemos que ele possuía
+    uma estrutura desenvolvida para transportar pessoas com eficiência.
+  </blockquote>
+
+  <blockquote>
+    Também encontramos registros de pessoas utilizando patinetes em ruas,
+    parques, ciclovias e outros espaços urbanos.
+  </blockquote>
+
+  <p>
+    Isso nos levou a uma conclusão provisória:
+    <strong>o patinete foi uma importante forma de transporte e lazer na sociedade do século XXI.</strong>
+  </p>
+</aside>
+
+<section>
+  <h2>Teorias rejeitadas</h2>
+
+  <h3>Teoria do brinquedo</h3>
+  <p>
+    A hipótese de que todos os patinetes eram apenas brinquedos foi
+    considerada incompleta, pois existem registros de utilização para transporte.
+  </p>
+
+  <h3>Teoria do equipamento esportivo</h3>
+  <p>
+    Alguns patinetes realmente eram utilizados em atividades esportivas,
+    mas isso não explica todos os modelos encontrados.
+  </p>
+
+  <h3>Teoria do transporte exclusivo</h3>
+  <p>
+    A ideia de que o patinete era utilizado somente para transporte também
+    foi considerada limitada, devido à grande quantidade de registros de lazer.
+  </p>
+</section>
+
+<section>
+  <h2>Possível sistema de utilização</h2>
+
+  <p>
+    Pesquisadores acreditam que existia um sistema básico para utilizar o patinete:
+  </p>
+
+  <ol>
+    <li><strong>Patinete parado:</strong> estado de segurança.</li>
+    <li><strong>Usuário sobre a plataforma:</strong> preparação para utilização.</li>
+    <li><strong>Impulso:</strong> início do deslocamento.</li>
+    <li><strong>Guidão direcionado:</strong> controle do caminho.</li>
+    <li><strong>Freio acionado:</strong> redução da velocidade.</li>
+    <li><strong>Patinete guardado:</strong> finalização da utilização.</li>
+  </ol>
+
+  <p>
+    A simplicidade desse sistema foi uma das características que ajudaram
+    o patinete a se tornar popular.
+  </p>
+</section>
+
+<section>
+  <h2>Perguntas ainda sem resposta</h2>
+
+  <ul>
+    <li>Por que o patinete se tornou tão popular?</li>
+    <li>Por que alguns modelos possuíam rodas tão pequenas?</li>
+    <li>Como os usuários escolhiam entre modelos tradicionais e elétricos?</li>
+    <li>Qual foi o primeiro patinete utilizado pela humanidade?</li>
+    <li>Por que alguns patinetes eram utilizados para manobras?</li>
+    <li>Como os sistemas de compartilhamento funcionavam?</li>
+    <li>Existiam competições oficiais de patinete?</li>
+    <li>Por que alguns modelos podiam ser dobrados?</li>
+    <li>Como o patinete influenciou a mobilidade urbana?</li>
+  </ul>
+</section>
+
+<section class="alert">
+  <h2>⚠ Nota de segurança do museu</h2>
+
+  <p>
+    Visitantes não devem tentar reproduzir manobras perigosas sem equipamentos
+    de proteção e sem um local adequado.
+  </p>
+
+  <p>
+    Patinetes são veículos e equipamentos de lazer que devem ser utilizados
+    de maneira responsável.
+  </p>
+
+  <p>
+    O museu recomenda o uso de capacete e o respeito às regras de circulação.
+  </p>
+</section>
+
+<section>
+  <h2>Classificação final</h2>
+
+  <p><strong>Nome conhecido:</strong> Patinete</p>
+  <p><strong>Nome arqueológico:</strong> Veículo Pessoal de Duas Rodas</p>
+  <p><strong>Civilização:</strong> Sociedade Digital Pré-Singularidade</p>
+  <p><strong>Período:</strong> aproximadamente 2000–2035</p>
+  <p><strong>Uso confirmado:</strong> transporte pessoal e lazer</p>
+  <p><strong>Uso esportivo:</strong> confirmado</p>
+  <p><strong>Uso elétrico:</strong> confirmado em modelos específicos</p>
+  <p><strong>Nível atual de compreensão:</strong> 89%</p>
+</section>
+
+</main>
+
+<footer>
+  <p>Museu de Arqueologia Digital — Ano 2200</p>
+  <p>Departamento de Estudos da Estranha Civilização do Século XXI</p>
+</footer>
+
+</body>
+</html>
